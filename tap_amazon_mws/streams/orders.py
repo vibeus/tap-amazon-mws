@@ -66,7 +66,8 @@ class OrdersStream(PaginatedStream):
                 "CountryCode": pluck(r, ['ShippingAddress', 'CountryCode', 'value']),
                 "Name": pluck(r, ['ShippingAddress', 'Name', 'value']),
                 "AddressLine1": pluck(r, ['ShippingAddress', 'AddressLine1', 'value']),
-                "AddressLine2": pluck(r, ['ShippingAddress', 'AddressLine2', 'value'])
+                "AddressLine2": pluck(r, ['ShippingAddress', 'AddressLine2', 'value']),
+                "Phone": pluck(r, ['ShippingAddress', 'Phone', 'value'])
             },
 
             # Prices
@@ -118,7 +119,8 @@ class OrdersStream(PaginatedStream):
                 "CountryCode": pluck(r, ['ShippingAddress', 'CountryCode', 'value']),
                 "Name": pluck(r, ['ShippingAddress', 'Name', 'value']),
                 "AddressLine1": pluck(r, ['ShippingAddress', 'AddressLine1', 'value']),
-                "AddressLine2": pluck(r, ['ShippingAddress', 'AddressLine2', 'value'])
+                "AddressLine2": pluck(r, ['ShippingAddress', 'AddressLine2', 'value']),
+                "Phone": pluck(r, ['ShippingAddress', 'Phone', 'value'])
             },
 
             # Prices

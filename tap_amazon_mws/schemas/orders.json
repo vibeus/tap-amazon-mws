@@ -246,6 +246,12 @@
                         "null",
                         "string"
                     ]
+                },
+                "Phone": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
                 }
             }
         },
